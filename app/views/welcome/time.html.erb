@@ -1,0 +1,7 @@
+<h1>Time is the only true currency</h1>
+
+<% if params[:now] %>
+    The current time is <%= Time.now.strftime("%a, %d %b %Y %I:%M:%S UTC %z") %>
+<% end %>
+
+
